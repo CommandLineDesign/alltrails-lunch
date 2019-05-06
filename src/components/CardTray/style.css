@@ -8,6 +8,7 @@
   margin-top: 90px;
   overflow: auto;
 }
+
 .cardTray-container::-webkit-scrollbar {
   display: none;
 }
