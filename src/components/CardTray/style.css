@@ -1,0 +1,13 @@
+.cardTray-container {
+  display: inline-block;
+  text-align: left;
+  width: 320px;
+  height: 480px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 90px;
+  overflow: auto;
+}
+.cardTray-container::-webkit-scrollbar {
+  display: none;
+}

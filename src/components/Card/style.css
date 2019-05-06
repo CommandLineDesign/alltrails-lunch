@@ -1,0 +1,61 @@
+.card-container {
+  padding: 12px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 9px;
+}
+
+.card-col {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 2px;
+}
+
+.card-item {
+  padding-left: 4px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 14px;
+  width: 190px;
+  color: gray;
+}
+
+.favorite {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.card-rating {
+  color: gray;
+  font-size: 10px;
+  padding-top: 2px;
+}
+
+.card-footer {
+  color: gray;
+}
+
+.card-address {
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-priceLevel {
+  font-size: 11px;
+}
+
+.card-container.highlight {
+  border: 2px solid forestgreen;
+}
+
+.card-container .favorite.highlight {
+  color: forestgreen;
+}
